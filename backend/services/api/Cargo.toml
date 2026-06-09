@@ -1,0 +1,17 @@
+[package]
+name = "circlee-api"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+axum.workspace = true
+circlee-common = { path = "../../crates/common" }
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+tower-http.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+uuid.workspace = true
+

@@ -1,0 +1,21 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Rust
+backend/target/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+mobile/.dart_tool/
+mobile/build/
+mobile/.packages
+
+# Environment
+.env
+.env.*
+
